@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Function to calculate the total price
     function calculateTotal() {
         let total = 0;
-        cartItems.innerHTML = ""; 
+        cartItems.innerHTML = "";
 
         for (const item of cart) {
             const row = document.createElement("tr");

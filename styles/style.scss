@@ -35,6 +35,18 @@ nav {
     }
 }
 
+#shopinglink {
+    border: solid 1px $Night;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: $Neutral;
+    &:hover {
+        color: $Night;
+        border: solid 1px $PrimaryColor;
+    }
+}
+
 #products {
     display: flex;
     flex-wrap: wrap;

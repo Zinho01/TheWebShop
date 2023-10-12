@@ -25,6 +25,18 @@ nav {
   border: solid 1px rgb(46, 35, 153);
 }
 
+#shopinglink {
+  border: solid 1px rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: rgb(128, 128, 128);
+}
+#shopinglink:hover {
+  color: rgb(0, 0, 0);
+  border: solid 1px rgb(46, 35, 153);
+}
+
 #products {
   display: flex;
   flex-wrap: wrap;

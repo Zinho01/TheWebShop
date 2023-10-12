@@ -5,8 +5,15 @@ document.addEventListener("DOMContentLoaded", () => {
             let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
             const ProductContainer = document.getElementById("products");
-            const FilterButtonsContainer = document.getElementById("filter-buttons");
-            const filterButtons = ["All", "Apple", "Samsung", "Nokia", "Motorola"];
+            const FilterButtonsContainer =
+                document.getElementById("filter-buttons");
+            const filterButtons = [
+                "All",
+                "Apple",
+                "Samsung",
+                "Nokia",
+                "Motorola",
+            ];
 
             function updateCartCount() {
                 const productCart = document.getElementById("productCart");
@@ -44,16 +51,16 @@ document.addEventListener("DOMContentLoaded", () => {
                         productBrand.textContent = "Brand: " + data[i].brand;
 
                         const productPrice = document.createElement("p");
-                        productPrice.textContent = "Price: $" + data[i].price.toFixed(2);
+                        productPrice.textContent =
+                            "Price: $" + data[i].price.toFixed(2);
 
                         const productColor = document.createElement("h3");
                         productColor.textContent = "Color: " + data[i].color;
 
-                        const addToCartButton = document.createElement("button");
+                        const addToCartButton =
+                            document.createElement("button");
                         addToCartButton.textContent = "Add to Cart";
                         addToCartButton.classList.add("addToCart");
-
-                        
 
                         addToCartButton.addEventListener("click", () => {
                             // Push the product data to the cart
