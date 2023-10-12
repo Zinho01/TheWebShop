@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1001",
+        "name": "iPhone 13 Pro",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIr12ZSgHPTB6I1NH0ALWl15Weo8QqrXlF7bdC9jiYAFLo9eeVVQQ3mcMvmlEhb9Xk8AA&usqp=CAU",
+        "brand": "Apple",
+        "model": "13 Pro",
+        "storage": "256GB",
+        "amount": 12,
+        "price": 1099.99,
+        "description": "The iPhone 13 Pro features a stunning Super Retina XDR display, A15 Bionic chip, and a versatile triple-camera system for incredible photos and videos.",
+        "color": "Graphite"
+    },
+    {
+        "id": "1002",
+        "name": "Samsung Galaxy S22",
+        "img": "https://consumentenbond-res.cloudinary.com/w_600,f_auto/e_improve:30/v1647872167/productvergelijker/MOBTEL/IC20006-0297-00_01",
+        "brand": "Samsung",
+        "model": "Galaxy S22",
+        "storage": "128GB",
+        "amount": 15,
+        "price": 899.99,
+        "description": "The Samsung Galaxy S22 is a powerhouse with its Exynos 2200 chip, vibrant Dynamic AMOLED display, and versatile camera setup.",
+        "color": "Phantom Black"
+    },
+    {
+        "id": "1003",
+        "name": "Motorola Moto G7",
+        "img": "https://motorolanl.vtexassets.com/arquivos/ids/155582/image-b7a7ad852fdb4e2d9e7c3da3a9285098.jpg?v=637148543673200000",
+        "brand": "Motorola",
+        "model": "Moto G7",
+        "storage": "64GB",
+        "amount": 8,
+        "price": 199.99,
+        "description": "The Moto G7 offers a balance of performance and affordability with its large display, clean software, and long battery life.",
+        "color": "Ceramic Black"
+    },
+    {
+        "id": "1004",
+        "name": "Nokia 9 PureView",
+        "img": "https://m.media-amazon.com/images/I/613NsK5YFxL.jpg",
+        "brand": "Nokia",
+        "model": "9 PureView",
+        "storage": "128GB",
+        "amount": 6,
+        "price": 399.99,
+        "description": "The Nokia 9 PureView stands out with its innovative penta-lens camera system and clean Android One software experience.",
+        "color": "Midnight Blue"
+    },
+    {
+        "id": "1005",
+        "name": "iPhone 13",
+        "img": "https://www.bell.ca/Styles/images/iPhone13/img_iPhone13_Black_5G_lrg3.png",
+        "brand": "Apple",
+        "model": "13",
+        "storage": "64GB",
+        "amount": 10,
+        "price": 799.99,
+        "description": "The iPhone 13 is a versatile smartphone with a powerful A15 Bionic chip, dual-camera system, and all-day battery life.",
+        "color": "Midnight"
+    },
+    {
+        "id": "1006",
+        "name": "Samsung Galaxy A52",
+        "img": "https://cdn.idealo.com/folder/Product/201159/1/201159194/s3_produktbild_gross_4/samsung-galaxy-a52-5g-6gb-128gb-awesome-white.jpg",
+        "brand": "Samsung",
+        "model": "Galaxy A52",
+        "storage": "128GB",
+        "amount": 18,
+        "price": 349.99,
+        "description": "The Samsung Galaxy A52 offers a great display, impressive camera performance, and a sleek design at an affordable price.",
+        "color": "Awesome White"
+    },
+    {
+        "id": "1007",
+        "name": "Motorola Edge+",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTstc40OgqAbZASPzVhwFNUjU9tEcNOnzXu_qIGBR4cx5Uw08pNeSQIJuw5QalS0HvLHoA&usqp=CAU",
+        "brand": "Motorola",
+        "model": "Edge+",
+        "storage": "256GB",
+        "amount": 7,
+        "price": 799.99,
+        "description": "The Motorola Edge+ is a flagship phone with a high-refresh-rate display, powerful Snapdragon 865 chip, and versatile camera setup.",
+        "color": "Solar Black"
+    },
+    {
+        "id": "1008",
+        "name": "Nokia 8.3 5G",
+        "img": "https://consumentenbond-res.cloudinary.com/w_600,f_auto/e_improve:30/v1624461045/productvergelijker/MOBTEL/IC20006-0117-00_01",
+        "brand": "Nokia",
+        "model": "8.3 5G",
+        "storage": "128GB",
+        "amount": 9,
+        "price": 499.99,
+        "description": "The Nokia 8.3 5G is a 5G-enabled phone with a clean Android experience, a large display, and a robust build quality.",
+        "color": "Polar Night"
+    }
+]

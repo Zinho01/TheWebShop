@@ -1,0 +1,234 @@
+body {
+  margin-bottom: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 1px;
+}
+
+#login {
+  text-decoration: none;
+  background: none;
+  border: solid 1px rgb(0, 0, 0);
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+}
+#login:hover {
+  color: rgb(46, 35, 153);
+  border: solid 1px rgb(46, 35, 153);
+}
+
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  justify-content: space-between;
+  width: 350px;
+  height: 450px;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "AR One Sans", sans-serif;
+  /* justify-content: center; */
+  text-align: center;
+  transition: transform 0.3s;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.card:hover {
+  transform: scale(0.95);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+.card .product-image {
+  width: 170px;
+  height: 118px;
+}
+.card .addToCart {
+  background: none;
+  border: solid 1px rgb(0, 0, 0);
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  font-size: large;
+  color: rgb(128, 128, 128);
+}
+.card .addToCart:hover {
+  color: rgb(0, 0, 0);
+}
+
+img {
+  display: flex;
+  max-width: 100px;
+  max-height: 50px;
+}
+
+#filter-buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  color: rgb(128, 128, 128);
+  transition: background-color 0.3s;
+  font-family: "Martian Mono", monospace;
+}
+#filter-buttons button:hover {
+  color: rgb(0, 0, 0);
+}
+
+#Orders-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+#Orders-container div {
+  width: 45%;
+  padding: 10px;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 10px;
+}
+#Orders-container div form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Orders-container div form h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#Orders-container div form label {
+  font-weight: bold;
+}
+#Orders-container div form input {
+  padding: 5px;
+  margin: 5px;
+}
+#Orders-container div form button {
+  background: rgb(46, 35, 153);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+#Orders-container div form button:hover {
+  background: rgb(0, 0, 0);
+}
+
+#addOrderForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#addOrderForm button {
+  background: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  font-size: large;
+  color: rgb(128, 128, 128);
+}
+#addOrderForm button:hover {
+  color: rgb(0, 0, 0);
+}
+
+#OrderRemove {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#removeOrderForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#removeOrderForm button {
+  background: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  font-size: large;
+  color: rgb(128, 128, 128);
+}
+#removeOrderForm button:hover {
+  color: rgb(0, 0, 0);
+}
+
+#table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+#table h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+#table table {
+  width: 80%;
+  border: 1px solid rgb(128, 128, 128);
+  border-collapse: collapse;
+}
+#table table th, #table table td {
+  border: 1px solid rgb(128, 128, 128);
+  padding: 10px;
+  text-align: center;
+}
+#table p {
+  font-size: 18px;
+}
+
+#NumOrders {
+  background-color: rgb(51, 63, 87);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#NumOrders h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+#NumOrders p {
+  font-size: 20px;
+}
+
+footer {
+  position: fixed;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  background-color: #212529;
+}
+footer div {
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+}/*# sourceMappingURL=style.css.map */

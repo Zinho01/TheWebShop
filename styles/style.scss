@@ -1,0 +1,270 @@
+$PrimaryColor: rgb(46, 35, 153);
+$SecondaryColor: rgb(255, 255, 255);
+$Neutral: rgb(128, 128, 128);
+$Night: rgb(0, 0, 0);
+$Alert: rgb(255, 0, 0);
+$font: 'Martian Mono', monospace;
+$font2:'AR One Sans', sans-serif;
+$banner1: rgb(51, 63, 87);
+$footer: #212529;
+
+body {
+    margin-bottom: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 1px;
+}
+
+#login {
+    text-decoration: none;
+    background: none;
+    border: solid 1px $Night;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    color: $Night;
+    &:hover {
+        color: $PrimaryColor;
+        border: solid 1px $PrimaryColor;
+    }
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    justify-content: space-between;
+    width: 350px;
+    height: 450px;
+    border: 1px solid $Neutral;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $font2;
+    /* justify-content: center; */
+    text-align: center;
+    transition: transform 0.3s;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+
+    &:hover {
+        transform: scale(0.95);
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .product-image {
+        width: 170px;
+        height: 118px;
+    }
+
+    .addToCart {
+        background: none;
+        border: solid 1px $Night;
+        border-radius: 10px;
+        cursor: pointer;
+        padding: 10px;
+        margin: 10px;
+        font-size: large;
+        color: $Neutral;
+
+        &:hover {
+            color: $Night;
+        }
+    }
+}
+
+img {
+    display: flex;
+    max-width: 100px;
+    max-height: 50px;
+}
+
+#filter-buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    color: $Neutral;
+    transition: background-color 0.3s;
+    font-family: $font;
+    &:hover {
+        color: $Night;
+    
+    }
+}
+
+#Orders-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 20px; 
+    background-color: $SecondaryColor;
+    color: $Night;
+    
+    div {
+        width: 45%; 
+        padding: 10px; 
+        border: 1px solid $Neutral; 
+        border-radius: 10px; 
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            h4 {
+                font-size: 20px;
+                margin-bottom: 10px; 
+            }
+            
+            label {
+                font-weight: bold;
+            }
+            
+            input {
+                padding: 5px; 
+                margin: 5px;
+            }
+            
+            button {
+                background: $PrimaryColor;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                padding: 10px;
+                margin: 10px;
+                font-size: 18px; 
+                color: $SecondaryColor; 
+                
+                &:hover {
+                    background: $Night; 
+                }
+            }
+        }
+    }
+}
+
+
+#addOrderForm {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+    button {
+        background: none;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        padding: 10px;
+        margin: 10px;
+        font-size: large;
+        color: $Neutral;
+
+        &:hover {
+            color: $Night;
+        }
+    }
+}
+
+#OrderRemove {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#removeOrderForm{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+    
+        button{ 
+        background: none;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        padding: 10px;
+        margin: 10px;
+        font-size: large;
+        color: $Neutral;
+
+        &:hover {
+            color: $Night;
+        }
+    }
+}
+
+#table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;  
+    
+    h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    table {
+        width: 80%; 
+        border: 1px solid $Neutral; 
+        border-collapse: collapse; 
+        
+        th, td {
+            border: 1px solid $Neutral; 
+            padding: 10px; 
+            text-align: center; 
+        }
+    }
+    
+    p {
+        font-size: 18px; 
+    }
+}
+
+#NumOrders {
+    background-color: $banner1;
+    color: $SecondaryColor; 
+    padding: 20px; 
+    text-align: center; 
+    margin-bottom: 20px;
+    
+    h2 {
+        font-size: 24px; 
+        margin-bottom: 10px; 
+    }
+    
+    p {
+        font-size: 20px;
+    }
+}
+
+
+footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    background-color: $footer;
+
+    div {
+        color: $SecondaryColor;
+        padding-left: 10px;
+    }
+}
