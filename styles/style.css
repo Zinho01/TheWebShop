@@ -1,5 +1,6 @@
 body {
-  margin-bottom: 50px;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
@@ -228,19 +229,4 @@ img {
 }
 #NumOrders p {
   font-size: 20px;
-}
-
-footer {
-  position: fixed;
-  height: 50px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  padding-top: 0px;
-  margin-bottom: 0px;
-  background-color: #212529;
-}
-footer div {
-  color: rgb(255, 255, 255);
-  padding-left: 10px;
 }/*# sourceMappingURL=style.css.map */
